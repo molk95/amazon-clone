@@ -1,5 +1,5 @@
 import React from "react";
-import AmazonLogo from "./amazon_PNG11.png";
+import AmazonLogo from "./images/amazon_PNG11.png";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import "./Header.css";
