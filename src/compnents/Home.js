@@ -11,6 +11,10 @@ function Home() {
               alt='AmazonPrime'
               />
             </div>
+            <div classNam='home__row' ></div>
+            <div classNam='home__row' ></div>
+            <div classNam='home__row' ></div>
+            
 
         </div>
     )
