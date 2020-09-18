@@ -18,18 +18,6 @@ function Product() {
           <span role="img" aria-label="star">
             ⭐
           </span>
-          <span role="img" aria-label="star">
-            ⭐
-          </span>
-          <span role="img" aria-label="star">
-            ⭐
-          </span>
-          <span role="img" aria-label="star">
-            ⭐
-          </span>
-          <span role="img" aria-label="star">
-            ⭐
-          </span>
         </div>
         <img
          className='product__image' src={CODINGbook} alt="CODINGbookImage" />

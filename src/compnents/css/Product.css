@@ -11,14 +11,13 @@
   background-color: #ffffff;
   z-index: 1;
 }
-
-.product > .product__image {
+.product > img {
   max-height: 200px;
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
 }
-.product > .buy {
+.product > button {
   background: #f0c14b;
   border: 1px solid;
   margin-top: 10px;
