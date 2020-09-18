@@ -1,29 +1,28 @@
 import React from "react";
-import CODINGbook from "../images/CODINGbook.jpg";
+import StarIcon from "@material-ui/icons/Star";
 import "../css/Product.css";
 
-function Product() {
+function Product({ id, title, price, rating, image }) {
   return (
     <div className="product">
       <div className="product__info">
-        <p>
-          Cracking the Coding Interview, 6th Edition: 189 Programming Questions
-          and Solutions
-        </p>
+        <p>{title}</p>
         <p className="product__price">
           <small>€</small>
-          <strong>37,62</strong>
+          <strong>{price}</strong>
         </p>
         <div className="product__rating">
-          <span role="img" aria-label="star">
-            ⭐
-          </span>
+          {Array(rating)
+            .fill()
+            .map((_, i) => (
+              <span key={i} role="img" aria-label="star">
+                <StarIcon className="product__star" />
+              </span>
+            ))}
         </div>
-        <img
-         className='product__image' src={CODINGbook} alt="CODINGbookImage" />
-
-        <button className='buy'>Ajouter au panier</button>
       </div>
+      <img className="product__image" src={image} alt="product" />
+      <button className="product__button">Ajouter au panier</button>
     </div>
   );
 }
