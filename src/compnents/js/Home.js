@@ -1,6 +1,7 @@
 import React from 'react'
-import '../compnents/Home.css'
-import AmazonPrime from './images/AmazonPrime.jpg'
+import Product from '../js/Product'
+import AmazonPrime from '../images/AmazonPrime.jpg'
+import '../css/Home.css'
 function Home() {
     return (
         <div className="home">
@@ -11,7 +12,9 @@ function Home() {
               alt='AmazonPrime'
               />
             </div>
-            <div classNam='home__row' ></div>
+            <div classNam='home__row' >
+                <Product />
+            </div>
             <div classNam='home__row' ></div>
             <div classNam='home__row' ></div>
             

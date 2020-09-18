@@ -1,8 +1,8 @@
 import React from "react";
-import AmazonLogo from "./images/amazon_PNG11.png";
+import AmazonLogo from "../images/amazon_PNG11.png";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import "./Header.css";
+import "../css/Header.css";
 function Header() {
   return (
     <div className="header">

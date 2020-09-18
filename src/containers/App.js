@@ -1,7 +1,7 @@
 import React from 'react';
+import Header from '../compnents/js/Header';
+import Home from '../compnents/js/Home.js';
 import './App.css';
-import Header from '../compnents/Header';
-import Home from '../compnents/Home';
 
 function App() {
   return (
